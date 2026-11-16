@@ -6,7 +6,7 @@
 
 「Katto」是日文「切（カット）」的羅馬拼音。
 
-👉 **線上使用：<https://isha70852.github.io/yokinoKatto/>**
+👉 **線上使用：<https://isha70852.github.io/yukineKatto/>**
 
 ## 功能
 
@@ -37,7 +37,7 @@ npm install
 npm run dev
 ```
 
-開發伺服器會開在 `http://localhost:5173/yokinoKatto/`。
+開發伺服器會開在 `http://localhost:5173/yukineKatto/`。
 
 ```bash
 npm run build   # 輸出到 dist/
@@ -45,7 +45,7 @@ npm run build   # 輸出到 dist/
 
 ## 部署
 
-推送到 `main` 分支後，GitHub Actions（`.github/workflows/deploy.yml`）會自動建置並發布到 GitHub Pages。網站路徑設定在 `vite.config.js` 的 `base: '/yokinoKatto/'`，repo 改名時要一起修改。
+推送到 `main` 分支後，GitHub Actions（`.github/workflows/deploy.yml`）會自動建置並發布到 GitHub Pages。網站路徑設定在 `vite.config.js` 的 `base: '/yukineKatto/'`，repo 改名時要一起修改。
 
 ## 授權
 

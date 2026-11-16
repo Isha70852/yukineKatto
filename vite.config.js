@@ -7,7 +7,7 @@ const vadPluginPath = resolve('src/optional/vad/build-plugin.js');
 const optionalPlugins = existsSync(vadPluginPath) ? [(await import(pathToFileURL(vadPluginPath).href)).default()] : [];
 
 export default defineConfig({
-  base: '/yokinoKatto/',
+  base: '/yukineKatto/',
   plugins: optionalPlugins,
   worker: { format: 'es' },
   server: {
